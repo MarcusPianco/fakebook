@@ -1,6 +1,13 @@
 import React from "react";
+import PostList from "./components/PostList";
+import Header from "./components/Header";
 function App() {
-  return <h1>Configuration complete</h1>;
+  return (
+    <>
+      <Header />
+      <PostList />
+    </>
+  );
 }
 
 export default App;
