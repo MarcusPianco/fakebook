@@ -1,7 +1,8 @@
 import React from "react";
+import { Container} from './styles'
 
 function PostFake() {
-  return <h1>post</h1>;
+  return (<Container />)
 }
 
 export default PostFake;

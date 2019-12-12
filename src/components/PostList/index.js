@@ -1,18 +1,22 @@
-import React, { Component } from "react";
+import React from "react";
 import PostFake from "../PostFake";
-class PostList extends Component {
-  state = {};
-  render() {
-    return (
-      <>
-        <h1>Post List</h1>
-        <p style={{ marginLeft: 20 }}>
-          {" "}
-          <PostFake />
-        </p>
-      </>
-    );
-  }
+import {Container} from './styled'
+
+function PostList(){
+  return ( 
+    <>
+    <Container>
+    <PostFake />
+    <PostFake />
+    <PostFake />
+
+
+    </Container>
+    
+
+    </>
+    )
 }
+
 
 export default PostList;
